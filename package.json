@@ -10,7 +10,9 @@
     "format": "prettier --write src/"
   },
   "dependencies": {
+    "@antv/g6": "^4.8.15",
     "@element-plus/icons-vue": "^2.1.0",
+    "echarts": "^5.4.2",
     "element-plus": "^2.3.6",
     "vue": "^3.3.2",
     "vue-router": "^4.2.0"
