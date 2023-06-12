@@ -50,19 +50,10 @@ export default {
               x: 0,
               y: 0,
               width: cfg.size[0],
-              height: cfg.size[1]
-            }
-          })
-          /* 矩形 */
-          group.addShape('rect', {
-            draggable: true, // 启用拖拽功能
-            attrs: {
-              x: 0,
-              y: 0,
-              width: cfg.size[0],
               height: cfg.size[1],
               stroke: '#5B8FF9',
-              radius: 2
+              radius: 2,
+              fill: 'white'
             }
           })
           /* 左边的粗线 */
@@ -143,12 +134,12 @@ export default {
         graph.changeSize(width, height)
       }
     },
-    onQuery() {}
+    onQuery() { }
   },
   mounted() {
     this.initChart()
   },
-  unmounted() {}
+  unmounted() { }
 }
 </script>
 
